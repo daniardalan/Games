@@ -27,9 +27,6 @@ player_score = 0
 opponent_score = 0
 font = pygame.font.Font("freesansbold.ttf", 32)
 
-# timer
-time_score = None
-
 def reset_ball(vel_x, vel_y, ball):
     ball.center = (screen_width/2, screen_height/2)
     vel_y *= random.choice((1, -1))
